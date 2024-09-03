@@ -6,12 +6,12 @@ def get_numbers():
     if number1_entry.get() == '':
         answer_entry.delete(0, tk.END)
         answer_entry.insert(0, 'Введите первое число')
-        return None, None
+        return None
 
     if number2_entry.get() == '':
         answer_entry.delete(0, tk.END)
         answer_entry.insert(0, 'Введите второе число')
-        return None, None
+        return None
 
     try:
         num1_str = number1_entry.get().replace(',', '.')
@@ -22,7 +22,7 @@ def get_numbers():
     except ValueError:
         answer_entry.delete(0, tk.END)
         answer_entry.insert(0, 'Вводить можно только числа')
-        return None, None
+        return None
 
 
 def get_result(result):
