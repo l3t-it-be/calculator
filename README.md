@@ -1,6 +1,6 @@
 # Python Calculator
 
-<img src="https://github.com/l3t-it-be/calculator/blob/main/resources/calc_screen.png" alt="Calculator Screenshot" width="300">
+<img src="https://github.com/l3t-it-be/calculator/blob/main/resources/calc_screen.png" alt="Calculator Screenshot" width="400">
 
 ## Описание
 
@@ -26,11 +26,3 @@
 ## Требования
 
 - Windows 7 или выше
-
-## Лицензия
-
-Проект лицензирован под лицензией MIT. Подробности см. в файле [LICENSE](LICENSE).
-
-## Автор
-
-[Kate Belova](https://github.com/l3t-it-be)
